@@ -3,11 +3,6 @@
 #include <string>
 
 
-
-std::string text;
-int ident;
-
-
 std::string encrypt_caesar(std::string text, int ident){
 
     std::string ceasarText;
@@ -26,14 +21,17 @@ std::string encrypt_caesar(std::string text, int ident){
         }
     }
     std::cout << " The code of Ceaser:\n" << ceasarText;
-    return 0;
+    return "";
 }
 
 
     int main ()
 {
+    int ident;
+    std::string text;
+
     std::cout << "Input the text below: \n";
-    std::cin >> text;
+    std::getline(text,text);
     std::cout << "Input the ident below : \n";
     std::cin >> ident;
 
