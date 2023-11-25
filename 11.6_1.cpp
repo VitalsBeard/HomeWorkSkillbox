@@ -12,8 +12,8 @@ std::string encrypt_caesar(std::string text, int ident){
        
         if ((text[i] >= 65 && text[i] <=90) || (text[i] >= 97 && text[i] <= 122) || text[i] == 32)
             {
-            if (text[i] > 91 ) i = 65;
-            if (text[i] > 122) i = 97;
+            if (text[i] > 90 && text[i] <65 ) i = 65;
+            if (text[i] > 122 && text[i] < 97) i = 97;
             ceasarText += text[i + ident];
             }
         else {
