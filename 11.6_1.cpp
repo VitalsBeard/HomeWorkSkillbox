@@ -5,29 +5,18 @@
 
 std::string encrypt_caesar(std::string text, int ident){
 
-    std::string ceasarText;
-    bool correct = true;
-
-    for ( int i = 0; i != text.length(); i++){
-       
-        if ((text[i] >= 65 && text[i] <=90) || (text[i] >= 97 && text[i] <= 122) || text[i] == 32)
-            {
-            if (text[i] > 90 && text[i] <65 ) i = 65;
-            if (text[i] > 122 && text[i] < 97) i = 97;
-            ceasarText += text[i + ident];
-            }
-        else {
-            std::cout << "There are incorrect symbols!";
-            correct = false;
-            break;
-        }
-
+   std::string caesarText;
+   
+   for (int i = 0 ; i != text.length() ; i++){
+    if ((text[i] >= 65 && text[i] <=90) || (text[i] >= 97 && text[i] <= 122) || text[i] == 32){    
+    caesarText += (char)(text[i] + ident);    
+    }else{
+        std::cout << "Incorrect input!\n";
+        break;
     }
-    if (correct)
-    {
-    std::cout << "The code of Ceaser:\n" << ceasarText;
-    }
-    return "";
+   }
+   std::cout << "The text of Ceaser is: \n" << caesarText;
+   return text;
 }
 
 
