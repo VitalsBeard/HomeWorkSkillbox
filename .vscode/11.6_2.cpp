@@ -11,16 +11,11 @@ int chekMail( std::string adressName)
  bool flag = true;
 
  for (int i = 0; i!= adressName.length(); i ++){
-    if (adressName[i]!='@'){
-        std::cout << "You forgot about '@' symbol!\n";
-        break;
-    }
-
-  for ( int i = 0; i != '@' ; i++){
+    for ( int i = 0; i != '@' ; i++){
     count++;
 
     if( adressName [i] == '.' && adressName [i+1]== '.'){
-          std::cout << "NO! \nThere are 2 dots in a row!\n";
+          flag = false;
            break;
     }else if ((adressName[i] >= 33 && adressName[i] <= 39) || (adressName[i] >= 42 && adressName[i] <= 57) || (adressName[i] >= 64 && adressName[i] <= 90) || 
              (adressName[i] >= 97 && adressName[i] <= 126)){
@@ -35,7 +30,7 @@ int chekMail( std::string adressName)
 
     for(int i = count ; i != adressName.length() ; i++){
         if( (adressName [i] == '.' && adressName [i+1]== '.') || (adressName[i] = '@')){
-          std::cout << "NO!\n";
+          flag = false;
            break;
         }else if ((adressName[i] >= 33 && adressName[i] <= 39) || (adressName[i] >= 42 && adressName[i] <= 57) || (adressName[i] >= 64 && adressName[i] <= 90) || 
              (adressName[i] >= 97 && adressName[i] <= 126)){

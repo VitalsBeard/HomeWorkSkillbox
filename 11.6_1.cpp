@@ -8,8 +8,10 @@ std::string encrypt_caesar(std::string text, int ident){
    std::string caesarText;
    
    for (int i = 0 ; i != text.length() ; i++){
-    if ((text[i] >= 65 && text[i] <=90) || (text[i] >= 97 && text[i] <= 122) || text[i] == 32){    
-    caesarText += (char)(text[i] + ident);    
+    if ((text[i] >= 65 && text[i] <=90) || (text[i] >= 97 && text[i] <= 122) ){  
+        caesarText += (char)(text[i] + ident);    
+    }else if (text[i] == 32){
+        caesarText += (char)text[i];
     }else{
         std::cout << "Incorrect input!\n";
         break;
