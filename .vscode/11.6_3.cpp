@@ -2,35 +2,71 @@
 
 
 
-bool checkIP(std::string adressIP){
 
+bool isValidIP(std::string ip) {
+    int dots = 0, num = 0;
+    for (int i = 0; i < ip.length(); i++) {
+        char c = ip[i];
+        if(c == '.') {
+            dots++;
+            if(num < 0 || num > 255) return false;
+            num = 0;
+        }
+        else if(c >= '0' && c <= '9') {
+            num = num * 10 + (c - '0');
+        }
+        else return false; 
+    }
+    return dots == 3 && num >= 0 && num <= 255;
+}
+
+int main() {
+    std::string ip;
+    std::cout << "Enter an IP address: ";
+    std::cin >> ip;
+
+    if(isValidIP(ip))
+        std::cout << "YES!";
+    else
+        std::cout  << " NO";
+}
+
+
+// bool checkIP(std::string adressIP){
+
+//     bool flag = false;
     
 
-    for (int i ; i!=adressIP.length() ; i++){
-        for (; i != '.'; ){
-            int countSumm;
-            countSumm = adressIP[i] - 48;
-            
+//     for (int i ; i!=adressIP.length() ; i++){
+//         for (int d ; d != '.'; d++){
+//             int countSumm;
+//             int symFirst=0;
+//             int symSec = 0;
+//             int symThird = 0;
+//             symFirst = (adressIP[0] - 48) *100;
+//             symSec = (adressIP[1] - 48) *10;
+//             symThird = (adressIP[2] - 48);
+//             countSumm =  symFirst + symSec = symThird;            
 
-        }
-    }
+//         }
+//     }
 
 
-}
+// }
 
 
 
 
 
-int main(){
+// int main(){
 
-    std::string adressIP;
+//     std::string adressIP;
 
-    std::cout << "Input the IP adress below:\n";
-    std::cin >> adressIP;
-    checkIP(adressIP);
+//     std::cout << "Input the IP adress below:\n";
+//     std::cin >> adressIP;
+//     checkIP(adressIP);
 
-}
+// }
 
 
 
