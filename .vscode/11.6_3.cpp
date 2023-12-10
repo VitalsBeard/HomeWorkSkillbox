@@ -14,7 +14,7 @@ bool isValidIP(std::string ip) {
         }
         else if(c >= '0' && c <= '9') {
             num = num * 10 + (c - '0');
-        }
+       // }else if (ip[i] == ip[i+1] && ip[i+1] == ip[i+2] && ip[i] = '0') return false;
         else return false; 
     }
     return dots == 3 && num >= 0 && num <= 255;

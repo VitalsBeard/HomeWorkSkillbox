@@ -1,40 +1,99 @@
 #include<iostream>
 #include<string>
 
-bool isValidEmail(std::string email) {
-    bool at_found = false;
-    bool dot_found = false;
 
-    for (int i = 0; i < email.length(); i++) {
-        if (email[i] == '@') {
-            if(i == 0)    
-                return false;
-            else
-                at_found = true;
-        } 
-        else if (email[i] == '.') {
-            if(at_found) 
-                dot_found = true;
-
-        }else if ((email[i] < 33 && email[i] > 39) || (email[i] < 42 && email[i] > 57) || (email[i] < 64 && email[i] > 90) || 
-                (email[i] < 97 && email[i] > 126)){
-                return false;
-      }
+bool hasChar(std::string str, char ch) {
+    for(int i = 0; i < str.length(); i++) {
+        if(str[i] == ch) return true;
     }
-    return at_found && dot_found; 
+    return false;
 }
 
+bool isValidEmail(std::string email)
+{
+   
+    int atPos = -1;
+    for(int i = 0; i < email.length(); i++) {
+        if(email[i] == '@') atPos = i;
+        if ( email[i] == email[i+1] && email[i] == '.') return false;
+    }
 
-int main() {
-    std::string email;
-    std::cout << "Enter an email address: ";
-    std::cin >> email;
+   
+    if (atPos == -1) {
+        return false;  
+    }
     
-    if(isValidEmail(email))
-        std::cout  << " YES";
-    else
-        std::cout  << " NO";
+    
+   
+    std::string invalidChars = "!#$%&'*+/=?^_`{|}~-";
+    for(int i = 0; i < invalidChars.length(); i++){
+        for(int j = atPos + 1; j < email.length(); j++){
+            if (email[j] == invalidChars[i]) return false;
+        }
+    }
+
+    return true;
 }
+
+int main()
+{
+    std::string email;
+    std::cout << "Input email : ";
+    std::cin >> email;
+
+    if(isValidEmail(email))
+        std::cout<<"YES\n";
+    else
+        std::cout<<"NO\n";
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+// bool isValidEmail(std::string email) {
+//     bool at_found = false;
+//     bool dot_found = false;
+
+//     for (int i = 0; i < email.length(); i++) {
+//         if (email[i] == '@') {
+//             if(i == 0)    
+//                 return false;
+//             else
+//                 at_found = true;
+//         } 
+//         else if (email[i] == '.') {
+//             if(at_found) 
+//                 dot_found = true;
+
+//         }else if ((email[i] < 33 && email[i] > 39) || (email[i] < 42 && email[i] > 57) || (email[i] < 64 && email[i] > 90) || 
+//                 (email[i] < 97 && email[i] > 126)){
+//                 return false;
+//       }else if ((char)(email[i] == '.') && (char)(email[i+1] == '.')){
+//          return false;
+//       }
+      
+//     }
+//     return at_found && dot_found; 
+// }
+
+
+// int main() {
+//     std::string email;
+//     std::cout << "Enter an email address: ";
+//     std::cin >> email;
+    
+//     if(isValidEmail(email))
+//         std::cout  << " YES";
+//     else
+//         std::cout  << " NO";
+// }
 
 
 
