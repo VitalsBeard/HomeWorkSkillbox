@@ -1,34 +1,85 @@
+#include <string>
 #include <iostream>
 
-
-
-
-bool isValidIP(std::string ip) {
-    int dots = 0, num = 0;
-    for (int i = 0; i < ip.length(); i++) {
-        char c = ip[i];
-        if(c == '.') {
-            dots++;
-            if(num < 0 || num > 255) return false;
-            num = 0;
-        }
-        else if(c >= '0' && c <= '9') {
-            num = num * 10 + (c - '0');
-       // }else if (ip[i] == ip[i+1] && ip[i+1] == ip[i+2] && ip[i] = '0') return false;
-        }else return false; 
-    }
-    return dots == 3 && num >= 0 && num <= 255;
+bool is_valid_digit(char c)
+{
+    return c >= '0' && c <= '9';
 }
 
-int main() {
-    std::string ip;
-    std::cout << "Enter an IP address: ";
-    std::cin >> ip;
+bool is_valid_number(std::string number)
+{
+    if (number.length() == 0 || number.length() > 3)
+    {
+        std::cerr << "Invalid number length!";
+        return false;
+    }
+    if (number.length() > 1 && number[0] == '0')
+    {
+        std::cerr << "Invalid leading zero!";
+        return false;
+    }
+    for (int i = 0; i < number.length(); ++i) {
+        if (!is_valid_digit(number[i]))
+        {
+            std::cerr << "Invalid digit symbol!";
+            return false;
+        }
+    }
+    if (number.length() == 3)
+    {
+        if (number[0] > '2' ||
+            number[1] > '5' ||
+            number[2] > '5')
+        {
+            std::cerr << "The number is too large!";
+            return false;
+        }
+    }
+    return true;
+}
 
-    if(isValidIP(ip))
-        std::cout << "YES!";
-    else
-        std::cout  << " NO";
+std::string get_address_number(std::string address, int index)
+{
+    std::string number;
+    int src_index = 0;
+    int i = 0;
+    if (src_index != index) {
+        for (; i < address.length(); ++i) {
+            if (address[i] == '.') {
+                src_index += 1;
+                if (src_index == index) {
+                    i += 1;
+                    break;
+                }
+            }
+        }
+    }
+    while (i < address.length())
+    {
+        if (address[i] == '.')
+        {
+            break;
+        }
+        number += address[i];
+        i += 1;
+    }
+    return number;
+}
+
+int main()
+{
+    std::cout << "IP address:";
+    std::string address;
+    std::cin >> address;
+    for (int i = 0; i < 4; ++i) {
+        if (!is_valid_number(get_address_number(address, i)))
+        {
+            std::cerr << "Invalid!" << std::endl;
+            return 1;
+        }
+    }
+
+    std::cout << "Correct!" << std::endl;
 }
 
 
