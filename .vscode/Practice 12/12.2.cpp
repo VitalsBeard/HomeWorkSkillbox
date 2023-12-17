@@ -40,9 +40,10 @@ int main()
 
     for (int i; i != 15; i++)
     {
-        if(numbers[i] >= numbers[i+1]) swap(numbers[i] , numbers[i+1]);
-        else 
-        numbers[i] = numbers[i];
+        for (int j; j != 15; j ++)
+            if(numbers[j] >= numbers[j+1]) swap(numbers[j] , numbers[j+1]);
+            else 
+            numbers[j] = numbers[j];
     }
     
     cout << "Sorted numbers: \n" << numbers[15];
