@@ -41,9 +41,9 @@ int main()
     for (int i; i != 15; i++)
     {
         for (int j; j != 15; j ++)
-            if(numbers[j] >= numbers[j+1]) swap(numbers[j] , numbers[j+1]);
+            if(numbers[i] >= numbers[j+1]) swap(numbers[i] , numbers[j+1]);
             else 
-            numbers[j] = numbers[j];
+            numbers[i] = numbers[j];
     }
     
     cout << "Sorted numbers: \n" << numbers[15];
