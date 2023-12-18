@@ -40,12 +40,11 @@ int main()
 
     for (int i = 0 ; i != 15; i++)
     {
-        for (int j = 0; j != 15; j ++){
+        for (int j = i+1; j != 15; j ++){
 
-            if(numbers[i] >= numbers[j+1]) swap(numbers[i] , numbers[j+1]);
-            else 
-            break;
-           
+            if(numbers[i] >= numbers[j+1]){
+                 swap(numbers[i] , numbers[j+1]);
+            }
     }
 
 
