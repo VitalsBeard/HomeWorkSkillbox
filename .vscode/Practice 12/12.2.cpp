@@ -38,13 +38,23 @@ int main()
         cin >> numbers[i];
     }
 
-    for (int i; i != 15; i++)
+    for (int i = 0 ; i != 15; i++)
     {
-        for (int j; j != 15; j ++)
+        for (int j = 0; j != 15; j ++){
+
             if(numbers[i] >= numbers[j+1]) swap(numbers[i] , numbers[j+1]);
             else 
-            numbers[i] = numbers[j];
+            break;
+           
     }
-    
-    cout << "Sorted numbers: \n" << numbers[15];
-}   
+
+
+    cout << "Sorted numbers:\n";
+
+    for (int i = 0 ; i != 15; i++)
+    {
+        cout << numbers[i]<< "\n";
+    }
+ 
+    }   
+}
