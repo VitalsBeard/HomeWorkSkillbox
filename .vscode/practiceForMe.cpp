@@ -1,5 +1,7 @@
 #include<iostream>
 #include<string>
+#include <vector>
+#include <algorithm>
 using namespace std;
 
 
@@ -10,12 +12,31 @@ using namespace std;
 
 int main ()
 {
-    string vitamins[] = {"VitA", "VitB", "VitC", "VitD", "VitE"};
-    int timeShift; 
-    cin >> timeShift;
+   vector<int>robotsStart ;
+   int n ;
+  
 
-    while (timeShift != 0)
+   while (n != -1)
+   {
+    cout << "Please input the number: ";
+    cin >> n;
+    robotsStart.push_back(n); 
+    for (int i = 0 ; i != robotsStart.size(); i++)
     {
-        cin >> timeShift;
+      if (n > robotsStart[i])
+      {
+         
+         robotsStart.push_back(n);
+         robotsStart.pop_back();
+      }
+    }   
     }
+
+   sort(begin (robotsStart), end (robotsStart));
+    
+  
+   for (int i =0 ; i!= robotsStart.size(); i++)
+   {
+      cout << robotsStart[i] << " ";
+   }
 }
