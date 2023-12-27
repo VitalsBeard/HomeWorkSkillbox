@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-using namespace std
+using namespace std;
 
 int main()
 {
@@ -11,7 +11,8 @@ int main()
 
       for(int i = 0 ; i != goods.size(); i++)
       {
-          summAll += prices(goods[i]);
+          int number = goods[i];        
+          summAll += prices[number];
       }
 
       cout << "Summ of the products is "<< summAll;
