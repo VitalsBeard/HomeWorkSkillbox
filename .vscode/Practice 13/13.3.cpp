@@ -13,15 +13,15 @@ int main ()
     {
         cout << "input the number: ";
         cin >> number;
-//         if(db.size() != 20 ){
-//             db.push_back(number);
-//         }else{
-//             break;
-//         }
-//     }
+        if(db.size() != 20 ){
+            db.push_back(number);
+        }else{
+            // break;
+        }
+    }
 
-//     cout << "Output: ";
-//     for(int i=0; i!=db.size(); i++){
-//         cout<< db[i];
-//     }
-// }
+    cout << "Output: ";
+    for(int i=0; i!=db.size(); i++){
+        cout<< db[i];
+    }
+}
