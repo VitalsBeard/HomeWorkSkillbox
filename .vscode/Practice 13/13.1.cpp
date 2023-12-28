@@ -12,15 +12,15 @@ int main()
     cin >> n;
     vector <int> vec(n);
 
-    cout << "Input the numbers";
+    cout << "Input the numbers\n";
 
-    for (int i = 0 ; i!=n+1; i++)
+    for (int i = 0 ; i!=n; i++)
     {
         cin >> newNumbers;
         vec.push_back(newNumbers);
     }
 
-    cout << "Input numbers to delete:";
+    cout << "Input numbers to delete:\n";
     cin >> newNumbers;
 
     for (int i = 0; i != vec.size(); i++)
