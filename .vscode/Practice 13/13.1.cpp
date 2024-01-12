@@ -21,7 +21,7 @@ int main()
     }
 
     cout << "Input numbers to delete:\n";
-    cin >> newNumbers;
+    cin >> newNumbers; 
 
     for (int i = 0; i != vec.size(); i++)
     {

@@ -10,33 +10,7 @@ using namespace std;
 
 
 
-int main ()
-{
-   vector<int>robotsStart ;
-   int n ;
-  
+int main (){
 
-   while (n != -1)
-   {
-    cout << "Please input the number: ";
-    cin >> n;
-    robotsStart.push_back(n); 
-    for (int i = 0 ; i != robotsStart.size(); i++)
-    {
-      if (n > robotsStart[i])
-      {
-         
-         robotsStart.push_back(n);
-         robotsStart.pop_back();
-      }
-    }   
-    }
-
-   sort(begin (robotsStart), end (robotsStart));
-    
-  
-   for (int i =0 ; i!= robotsStart.size(); i++)
-   {
-      cout << robotsStart[i] << " ";
-   }
+   int tenants[10][5] = {{1,0,4,5,3}, {2,1,3,4,5},{1,2,1,2,3}, {2,1,3,1,2},{1,5,1,4,3}, {3}};
 }
