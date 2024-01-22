@@ -58,7 +58,7 @@ for (int i = 0 ; i!= sizeof matrix3/ sizeof matrix3[0]; i++){
 
 for (int i = 0 ; i!= sizeof matrix3/ sizeof matrix3[0]; i++){
     for(int k = 0 ; k!= sizeof matrix3/ sizeof matrix3[0]; k++){
-         cout << matrix3[i][k]<< " ";        
+         cout << matrix3[i][k]<< "\t ";        
 
 
         }
