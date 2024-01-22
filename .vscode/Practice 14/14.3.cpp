@@ -5,9 +5,9 @@ using namespace std;
 
 int main(){
 
-int matrix1[4][4];
-int matrix2[4][4];
-int matrix3[4][4];
+int matrix1[4][4]{};// Добавлено {}
+int matrix2[4][4]{};
+int matrix3[4][4]{};
 bool check = false;
 
 cout<<"Please input the numbers for first matrix:\n";
