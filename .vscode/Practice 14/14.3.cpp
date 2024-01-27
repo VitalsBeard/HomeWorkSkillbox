@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-int matrix1[4][4]{};// Добавлено {}
+int matrix1[4][4]{};
 int matrix2[4][4]{};
 int matrix3[4][4]{};
 bool check = false;
@@ -40,19 +40,11 @@ for (int i = 0 ; i!= sizeof matrix3/ sizeof matrix3[0]; i++){
     for(int k = 0 ; k!= sizeof matrix3/ sizeof matrix3[0]; k++){
         if (i!=k){
             matrix3[i][k] = 0;
-        }
-
-        // cout << matrix3[i][k]<< " ";        
-
-        // // if (matrix1[i][k] == matrix2[i][k]) matrix3[i][k] == matrix1[i][k];
-        // // else {
-        // //     cout<< "Martix's are not equal !";
-        // //     return 0;
-        // // }       
+        }else{
+            matrix3[i][k] = matrix1[i][k];
+        }      
 
         }
-
-        // cout << endl;
     
     }
 

@@ -9,7 +9,7 @@ char blowProc(int placeFirstCoord,int placeSecondCoord,int placeThirdCoord,int p
 
     for (int i = placeFirstCoord; i != placeSecondCoord + placeFirstCoord; i++){
         for (int k = placeSecondCoord; k != placeSecondCoord + placeFirstCoord; k++){
-          char bubbleStrach_X_O [i][k]= 'O';
+//          char bubbleStrach_X_O [i][k]= 'O';
         }
     }
 
