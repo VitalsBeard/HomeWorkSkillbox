@@ -24,7 +24,7 @@ int main() {
     while (anyBubblesLeft(pupyrika, pupyrikaWidth, pupyrikaHeight)) {
         displayPupyrika(pupyrika, pupyrikaWidth, pupyrikaHeight);
 
-        std::cout << "Enter the coordinates of the region to pop (startX startY endX endY): ";
+        std::cout << "\nEnter the coordinates of the region to pop (startX startY endX endY): \n";
         int startX, startY, endX, endY;
         std::cin >> startX >> startY >> endX >> endY;
 
