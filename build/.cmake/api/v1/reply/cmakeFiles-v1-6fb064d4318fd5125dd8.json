@@ -1,0 +1,276 @@
+{
+	"inputs" : 
+	[
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "G:/C++prog/HomeWorkSkillbox/build/CMakeFiles/3.28.1/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "G:/C++prog/HomeWorkSkillbox/build/CMakeFiles/3.28.1/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "G:/C++prog/HomeWorkSkillbox/build/CMakeFiles/3.28.1/CMakeFortranCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "G:/C++prog/HomeWorkSkillbox/build/CMakeFiles/3.28.1/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-windres.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeFortranInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/GNU-Fortran.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-Fortran.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-Fortran-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		},
+		{
+			"isCMake" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/symbol.c.in"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "G:/C++prog/HomeWorkSkillbox/build",
+		"source" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

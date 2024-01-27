@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "FortranCInterface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "FortranCInterface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FortranCInterface-Debug-9dec5711f3d64ffd981f.json",
+					"name" : "FortranCInterface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "myfort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-myfort-Debug-b49c802c4d9767dc1afb.json",
+					"name" : "myfort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "symbols::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-symbols-Debug-95676acf91d9410e1f93.json",
+					"name" : "symbols",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "G:/C++prog/HomeWorkSkillbox/build",
+		"source" : "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

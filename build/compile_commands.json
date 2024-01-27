@@ -1,0 +1,218 @@
+[
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gfortran.exe   -g -flto=auto -ffat-lto-objects -c \"C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\FortranCInterface\\mysub.f\" -o CMakeFiles\\myfort.dir\\mysub.f.obj",
+  "file": "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/mysub.f",
+  "output": "CMakeFiles/myfort.dir/mysub.f.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gfortran.exe   -g -flto=auto -ffat-lto-objects -c \"C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\FortranCInterface\\my_sub.f\" -o CMakeFiles\\myfort.dir\\my_sub.f.obj",
+  "file": "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/my_sub.f",
+  "output": "CMakeFiles/myfort.dir/my_sub.f.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gfortran.exe   -g -flto=auto -ffat-lto-objects -c \"C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\FortranCInterface\\mymodule.f90\" -o CMakeFiles\\myfort.dir\\mymodule.f90.obj",
+  "file": "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/mymodule.f90",
+  "output": "CMakeFiles/myfort.dir/mymodule.f90.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gfortran.exe   -g -flto=auto -ffat-lto-objects -c \"C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\FortranCInterface\\my_module.f90\" -o CMakeFiles\\myfort.dir\\my_module.f90.obj",
+  "file": "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/my_module.f90",
+  "output": "CMakeFiles/myfort.dir/my_module.f90.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\mymodule_.c.obj -c \"C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\FortranCInterface\\mymodule_.c\"",
+  "file": "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/mymodule_.c",
+  "output": "CMakeFiles/symbols.dir/mymodule_.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\my_module_.c.obj -c \"C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\FortranCInterface\\my_module_.c\"",
+  "file": "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/my_module_.c",
+  "output": "CMakeFiles/symbols.dir/my_module_.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\MY_MODULE.c.obj -c \"C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\FortranCInterface\\MY_MODULE.c\"",
+  "file": "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/MY_MODULE.c",
+  "output": "CMakeFiles/symbols.dir/MY_MODULE.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\MYMODULE.c.obj -c \"C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\FortranCInterface\\MYMODULE.c\"",
+  "file": "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/MYMODULE.c",
+  "output": "CMakeFiles/symbols.dir/MYMODULE.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\my_sub.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\my_sub.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/my_sub.c",
+  "output": "CMakeFiles/symbols.dir/symbols/my_sub.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\my_sub_.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\my_sub_.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/my_sub_.c",
+  "output": "CMakeFiles/symbols.dir/symbols/my_sub_.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\my_sub__.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\my_sub__.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/my_sub__.c",
+  "output": "CMakeFiles/symbols.dir/symbols/my_sub__.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\MY_SUB-UPPER.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\MY_SUB-UPPER.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/MY_SUB-UPPER.c",
+  "output": "CMakeFiles/symbols.dir/symbols/MY_SUB-UPPER.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\mysub.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\mysub.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/mysub.c",
+  "output": "CMakeFiles/symbols.dir/symbols/mysub.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\mysub_.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\mysub_.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/mysub_.c",
+  "output": "CMakeFiles/symbols.dir/symbols/mysub_.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\MYSUB-UPPER.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\MYSUB-UPPER.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/MYSUB-UPPER.c",
+  "output": "CMakeFiles/symbols.dir/symbols/MYSUB-UPPER.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\__my_module_MOD_my_sub.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\__my_module_MOD_my_sub.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/__my_module_MOD_my_sub.c",
+  "output": "CMakeFiles/symbols.dir/symbols/__my_module_MOD_my_sub.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\__my_module_NMOD_my_sub.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\__my_module_NMOD_my_sub.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/__my_module_NMOD_my_sub.c",
+  "output": "CMakeFiles/symbols.dir/symbols/__my_module_NMOD_my_sub.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\__my_module__my_sub.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\__my_module__my_sub.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/__my_module__my_sub.c",
+  "output": "CMakeFiles/symbols.dir/symbols/__my_module__my_sub.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\__mymodule_MOD_mysub.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\__mymodule_MOD_mysub.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/__mymodule_MOD_mysub.c",
+  "output": "CMakeFiles/symbols.dir/symbols/__mymodule_MOD_mysub.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\__mymodule_NMOD_mysub.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\__mymodule_NMOD_mysub.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/__mymodule_NMOD_mysub.c",
+  "output": "CMakeFiles/symbols.dir/symbols/__mymodule_NMOD_mysub.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\__mymodule__mysub.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\__mymodule__mysub.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/__mymodule__mysub.c",
+  "output": "CMakeFiles/symbols.dir/symbols/__mymodule__mysub.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\my_moduleSmy_sub.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\my_moduleSmy_sub.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/my_moduleSmy_sub.c",
+  "output": "CMakeFiles/symbols.dir/symbols/my_moduleSmy_sub.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\my_module_mp_my_sub_.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\my_module_mp_my_sub_.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/my_module_mp_my_sub_.c",
+  "output": "CMakeFiles/symbols.dir/symbols/my_module_mp_my_sub_.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\MY_MODULE_mp_MY_SUB-UPPER.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\MY_MODULE_mp_MY_SUB-UPPER.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/MY_MODULE_mp_MY_SUB-UPPER.c",
+  "output": "CMakeFiles/symbols.dir/symbols/MY_MODULE_mp_MY_SUB-UPPER.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\my_module_my_sub_.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\my_module_my_sub_.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/my_module_my_sub_.c",
+  "output": "CMakeFiles/symbols.dir/symbols/my_module_my_sub_.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\my_module_MP_my_sub.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\my_module_MP_my_sub.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/my_module_MP_my_sub.c",
+  "output": "CMakeFiles/symbols.dir/symbols/my_module_MP_my_sub.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\mymoduleSmysub.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\mymoduleSmysub.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/mymoduleSmysub.c",
+  "output": "CMakeFiles/symbols.dir/symbols/mymoduleSmysub.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\mymodule_mp_mysub_.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\mymodule_mp_mysub_.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/mymodule_mp_mysub_.c",
+  "output": "CMakeFiles/symbols.dir/symbols/mymodule_mp_mysub_.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\MYMODULE_mp_MYSUB-UPPER.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\MYMODULE_mp_MYSUB-UPPER.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/MYMODULE_mp_MYSUB-UPPER.c",
+  "output": "CMakeFiles/symbols.dir/symbols/MYMODULE_mp_MYSUB-UPPER.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\mymodule_mysub_.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\mymodule_mysub_.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/mymodule_mysub_.c",
+  "output": "CMakeFiles/symbols.dir/symbols/mymodule_mysub_.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\mymodule_MP_mysub.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\mymodule_MP_mysub.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/mymodule_MP_mysub.c",
+  "output": "CMakeFiles/symbols.dir/symbols/mymodule_MP_mysub.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\_QMmy_modulePmy_sub.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\_QMmy_modulePmy_sub.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/_QMmy_modulePmy_sub.c",
+  "output": "CMakeFiles/symbols.dir/symbols/_QMmy_modulePmy_sub.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gcc.exe   -g -flto=auto -ffat-lto-objects -o CMakeFiles\\symbols.dir\\symbols\\_QMmymodulePmysub.c.obj -c G:\\C++prog\\HomeWorkSkillbox\\build\\symbols\\_QMmymodulePmysub.c",
+  "file": "G:/C++prog/HomeWorkSkillbox/build/symbols/_QMmymodulePmysub.c",
+  "output": "CMakeFiles/symbols.dir/symbols/_QMmymodulePmysub.c.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gfortran.exe  -DCALL_MOD  -g -fno-lto -c \"C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\FortranCInterface\\main.F\" -o CMakeFiles\\FortranCInterface.dir\\main.F.obj",
+  "file": "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/main.F",
+  "output": "CMakeFiles/FortranCInterface.dir/main.F.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gfortran.exe   -g -fno-lto -c \"C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\FortranCInterface\\call_sub.f\" -o CMakeFiles\\FortranCInterface.dir\\call_sub.f.obj",
+  "file": "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/call_sub.f",
+  "output": "CMakeFiles/FortranCInterface.dir/call_sub.f.obj"
+},
+{
+  "directory": "G:/C++prog/HomeWorkSkillbox/build",
+  "command": "C:\\mingw64\\bin\\gfortran.exe   -g -fno-lto -c \"C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\FortranCInterface\\call_mod.f90\" -o CMakeFiles\\FortranCInterface.dir\\call_mod.f90.obj",
+  "file": "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface/call_mod.f90",
+  "output": "CMakeFiles/FortranCInterface.dir/call_mod.f90.obj"
+}
+]

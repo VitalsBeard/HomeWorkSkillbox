@@ -1,0 +1,5 @@
+G:/C++prog/HomeWorkSkillbox/build/CMakeFiles/myfort.dir
+G:/C++prog/HomeWorkSkillbox/build/CMakeFiles/symbols.dir
+G:/C++prog/HomeWorkSkillbox/build/CMakeFiles/FortranCInterface.dir
+G:/C++prog/HomeWorkSkillbox/build/CMakeFiles/edit_cache.dir
+G:/C++prog/HomeWorkSkillbox/build/CMakeFiles/rebuild_cache.dir

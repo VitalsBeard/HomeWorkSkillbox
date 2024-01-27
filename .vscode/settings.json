@@ -101,5 +101,6 @@
     "stdexcept": "cpp",
     "streambuf": "cpp",
     "typeinfo": "cpp"
-  }
+  },
+  "cmake.sourceDirectory": "C:/Program Files/CMake/share/cmake-3.28/Modules/FortranCInterface"
 }
