@@ -7,14 +7,15 @@ using namespace std;
 int main ()
 {
     vector <int> numList;
-    int answer;
-    int number = 0;
+    int answer = 0;
+   
 
     while(answer != -2){
         cout << "Please input the number^\n";
-        cin >> number;
+        cin >> answer;
+
         if(answer != -1 ){
-            numList.push_back(number);
+            numList.push_back(answer);
             
 
         }else if (answer == -2 ){
@@ -30,7 +31,7 @@ int main ()
                 }
             }
 
-            cout << "The fifth number is - " << numList[4];
+            cout << "The fifth number is - " << numList[4]<< "\n";
 
         }
     }
