@@ -5,6 +5,27 @@
 using namespace std;
 
 
-int main(){
-    
+
+
+
+int main()
+{
+    vector <int> vec = {-100,-50, -5, 1, 10, 15};
+    vector <int> correct_vec;
+    int n;
+
+    for (int i = 0; i != vec.size(); i ++){
+        correct_vec[i] = abs(vec[i]);
+    }
+    for(int j = 0; j!=correct_vec.size(); j++){
+        for(int k =0; k!= correct_vec.size(); k++){
+            if(correct_vec[j]>=correct_vec[k]) swap (correct_vec[j],correct_vec[k]);
+        }
+    }
+
+    for(int i =0; i!=vec.size();i++ ){
+        cout<< correct_vec[i];
+    }
+
+    cin >> n;
 }

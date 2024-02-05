@@ -34,6 +34,6 @@ int main (){
         cout << " ";
     }
 
-    cin >> result;
+    // cin >> result;
 
 }

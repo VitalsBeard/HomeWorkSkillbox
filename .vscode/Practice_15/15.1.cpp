@@ -7,13 +7,17 @@ using namespace std;
 
 
 
-void findMaxSumSubarrayIndices(const vector<int>& nums) {
-    int maxSum = INT_MIN;
+int main() {
+    int check;
+   
+    vector<int> a = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+    
+   int maxSum = INT_MIN;
     int currentSum = 0;
     int start = 0, end = 0, s = 0;
 
-    for (int i = 0; i < nums.size(); ++i) {
-        currentSum += nums[i];
+    for (int i = 0; i < a.size(); ++i) {
+        currentSum += a[i];
 
         if (maxSum < currentSum) {
             maxSum = currentSum;
@@ -28,15 +32,7 @@ void findMaxSumSubarrayIndices(const vector<int>& nums) {
     }
 
     cout << "From " << start << " to " << end  << " with summ " << maxSum << endl;
-}
-
-int main() {
-    int check;
-   
-    vector<int> a = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-    
-    findMaxSumSubarrayIndices(a);
-    // cin >> check; 
+    // cin >> currentSum;
 
     return 0;
 }
