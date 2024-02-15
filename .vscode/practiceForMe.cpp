@@ -12,8 +12,20 @@ enum WindowStyle {
    HasCloseButton = 4
 };
 
+
+enum MyEnum
+{
+  OFF, 
+  ON,
+  SLEEP
+};
+
 int main(){
   enum Buttons { Button1, Button2,Button3};
   int button = Button3 | Button2;
   std::cout << button;
+
+  MyEnum s;
+  s = MyEnum::OFF;
+
 }
