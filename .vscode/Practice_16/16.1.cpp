@@ -8,12 +8,17 @@ using namespace std;
 int main (){
    
    string speed_value; // Новое значение скорости
-   string speed_str ; // итоговая скорость
+   float speed_str ; // итоговая скорость
 
    do{
-   float a = sprintf(speed_str, "%.1f", speed_value);
-   cout << a;
-   }while(speed_str != "0");
+      cout << "Speed delta: ";
+      cin >> speed_value;
+      float a = sprintf(speed_str, "%.1f", speed_value);
+      cout << "Speed: " << a;
+      if (speed_str > 150.0){
+         speed_str = 150.0;
+      }
+   }while(speed_str != 0);
       
 
     
